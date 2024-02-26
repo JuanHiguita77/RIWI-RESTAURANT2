@@ -14,7 +14,10 @@
 /*BODY STYLES*/
 body 
 {
-    background-color: white;
+    background-image: url('https://i.pinimg.com/564x/23/ce/8e/23ce8ec4d5b057c3eec8902e29d8d351.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Estilos para la barra de navegación */
