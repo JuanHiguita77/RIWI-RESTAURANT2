@@ -11,9 +11,12 @@
     --principal-color: #FFA500; /* Naranja */
 }
 
-body {
-
-    background-color: #ffffff;
+body 
+{
+    background-image: url('https://i.pinimg.com/564x/23/ce/8e/23ce8ec4d5b057c3eec8902e29d8d351.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Estilos para la barra de navegación */
@@ -48,6 +51,21 @@ body {
 
     height: auto;
     max-width: 160px;
+}
+
+
+/*BUTTON SEND IN FORM*/
+#loginForm .login-button
+{
+    background-color: var(--principal-color); /* Naranja */
+    border-color: var(--principal-color); 
+}
+
+/*HOVER FOR BUTTON SEND IN FORM*/
+#loginForm .login-button:hover 
+{
+    background-color: var(--hover-color); /* Naranja más oscuro al pasar el ratón */
+    border-color: var(--hover-color); /* Naranja más oscuro al pasar el ratón */
 }
 
 /* Estilos para la sección "Sobre Nosotros" */
