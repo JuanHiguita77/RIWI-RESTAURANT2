@@ -11,12 +11,10 @@
     --principal-color: #FFA500; /* Naranja */
 }
 
+/*BODY STYLES*/
 body 
 {
-    background-image: url('https://i.pinimg.com/564x/23/ce/8e/23ce8ec4d5b057c3eec8902e29d8d351.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: white;
 }
 
 /* Estilos para la barra de navegación */
@@ -53,7 +51,12 @@ body
     max-width: 160px;
 }
 
-
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+  
 /*BUTTON SEND IN FORM*/
 #loginForm .login-button
 {
@@ -67,6 +70,7 @@ body
     background-color: var(--hover-color); /* Naranja más oscuro al pasar el ratón */
     border-color: var(--hover-color); /* Naranja más oscuro al pasar el ratón */
 }
+
 
 /* Estilos para la sección "Sobre Nosotros" */
 #about {
@@ -108,3 +112,6 @@ footer {
     color: #ffffff;
     background-color: var(--principal-color);
 }
+
+
+
