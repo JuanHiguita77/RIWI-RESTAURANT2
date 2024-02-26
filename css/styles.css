@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --hover-color: #FF8C00;
+    --principal-color: #FFA500; /* Naranja */
+}
+
+/*BODY STYLES*/
+body 
+{
+    background-image: url('https://i.pinimg.com/564x/23/ce/8e/23ce8ec4d5b057c3eec8902e29d8d351.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*BUTTON SEND IN FORM*/
+#loginForm .login-button
+{
+    background-color: var(--principal-color); /* Naranja */
+    border-color: var(--principal-color); 
+}
+
+/*HOVER FOR BUTTON SEND IN FORM*/
+#loginForm .login-button:hover 
+{
+    background-color: var(--hover-color); /* Naranja más oscuro al pasar el ratón */
+    border-color: var(--hover-color); /* Naranja más oscuro al pasar el ratón */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+
+    padding: 10px 0;
+}
+
+.navbar-brand {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+
+    border: none;
+}
+
+.navbar-nav .nav-link {
+
+    color: #333333;
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: var(--principal-color);
+}
+
+/* Estilos logo */
+#logo {
+
+    height: auto;
+    max-width: 160px;
+}
+
+/* Estilos para la sección "Sobre Nosotros" */
+#about {
+
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+#about h2 {
+
+    color: #333333;
+}
+
+/* Estilos para la sección "Testimonios de Clientes" */
+.testimonial {
+
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+
+    color: #555555;
+    font-style: italic;
+}
+
+.testimonial p.text-right {
+
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+
+    color: #ffffff;
+    background-color: var(--principal-color);
+}
+
