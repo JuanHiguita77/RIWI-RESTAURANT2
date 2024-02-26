@@ -11,6 +11,11 @@
     --principal-color: #FFA500; /* Naranja */
 }
 
+body {
+
+    background-color: #ffffff;
+}
+
 /* Estilos para la barra de navegación */
 .navbar {
 
