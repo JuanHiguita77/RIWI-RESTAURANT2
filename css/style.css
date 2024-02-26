@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hover-color: #FF8C00;
+    --principal-color: #FFA500;
+    /* Naranja */
+}
+
+/*BODY STYLES*/
+body {
+    background-color: white;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+
+    padding: 10px 0;
+}
+
+.navbar-brand {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+
+    border: none;
+}
+
+.navbar-nav .nav-link {
+
+    color: #333333;
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: var(--principal-color);
+}
+
+/* Estilos logo */
+#logo {
+
+    height: auto;
+    max-width: 160px;
+}
+
+/* Estilos para el pie de página */
+footer {
+
+    color: #ffffff;
+    background-color: var(--principal-color);
+}
