@@ -42,13 +42,6 @@ body {
     color: var(--principal-color);
 }
 
-/* Estilos logo */
-#logo {
-
-    height: auto;
-    max-width: 160px;
-}
-
 /* Estilos para el pie de página */
 footer {
 
